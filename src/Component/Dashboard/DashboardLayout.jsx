@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import TopBar from './TopBar';
+
 import Sidebar from './Sidebar';
 import Home from '../Pages/Home';
 import Profile from '../Pages/Profile';
 import Settings from '../Pages/Setting';
 import Help from '../Pages/Help';
+import TopBar from './TopBar';
 
 const Dashboard = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
