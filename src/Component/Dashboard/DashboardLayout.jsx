@@ -6,7 +6,7 @@ import Home from '../Pages/Home';
 import Profile from '../Pages/Profile';
 import Settings from '../Pages/Setting';
 import Help from '../Pages/Help';
-import TopBar from './TopBar';
+import TopBar from './Top';
 
 const Dashboard = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
